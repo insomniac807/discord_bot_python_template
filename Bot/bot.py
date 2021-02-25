@@ -1,15 +1,17 @@
 import os
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
+load_dotenv()
 
-TOKEN = os.env.get("BOT_TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 
 intents = discord.Intents(messages=True, guilds=True, members=True)
 client = commands.Bot(command_prefix='$', help_command=None, intents = intents)
 
 @client.event
 async def on_ready():
-    print(f'{self.client.user} is online!')
+    print(f'{client.user} is online!')
 
 @client.command()
 async def say(ctx, message):
@@ -19,5 +21,4 @@ async def say(ctx, message):
 async def hibot(ctx):
     await ctx.send(f'Hello')
 
-
-client.start(TOKEN)
+client.run(TOKEN)
