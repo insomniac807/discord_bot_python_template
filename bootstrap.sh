@@ -1,2 +1,2 @@
 #!/bin/sh
-python server/server.py
+python Bot/bot.py
