@@ -14,7 +14,7 @@
 
 `git clone https://github.com/insomniac807/discord_bot_python_template.git`
 
-`cd discord_bot`
+`cd discord_bot_python_template`
 
 # Make sure you are in the root directory and give bootstrap.sh executable permission
 
