@@ -12,13 +12,9 @@
 
 # Clone the repo
 
-`git clone https://github.com/insomniac807/discord_bot.git`
+`git clone https://github.com/insomniac807/discord_bot_python_template.git`
 
 `cd discord_bot`
-
-# Navigate to Master Branch
-
-`git checkout master`
 
 # Make sure you are in the root directory and give bootstrap.sh executable permission
 
@@ -40,20 +36,13 @@
 
 # rename env to .env
 
-# Finally run bootstrap.sh to launch the backend API and have your bot go live
+# Finally run bootstrap.sh to have your bot go live
 
 `./bootstrap.sh`
 
-# If successful the server will output
+# Console Should Log
 
-
- `* Serving Flask app "./server/server.py"`
-
- `* Environment: production`
-  
-  `* Debug mode: off`
-
-`We have logged in as {YourBotName#YourBotId}`
+`{YourBotName#YourBotId} is online`
 
 
 
