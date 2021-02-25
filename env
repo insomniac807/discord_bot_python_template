@@ -1,0 +1,6 @@
+#Edit this file where appropriate and rename .env
+
+FLASK_APP=./server/server.py
+
+#Bot Token
+BOT_TOKEN=BOT_TOKEN_GOES_HERE
